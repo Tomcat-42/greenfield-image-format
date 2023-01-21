@@ -1,0 +1,6 @@
+[submodule "greenfield"]
+	path = greenfield
+	url = ./greenfield
+[submodule "greenriver"]
+	path = greenriver
+	url = ./greenriver
