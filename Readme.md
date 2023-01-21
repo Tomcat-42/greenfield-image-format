@@ -17,27 +17,26 @@
     </thead>
     <tbody>
         <tr>
-            <td align="center"><a target=_blank href="https://github.com/Tomcat-42/greenfield">greenfield</td>
+            <td align="center"><a target="_blank" href="https://github.com/Tomcat-42/greenfield">greenfield</td>
             <td align="center">A Rust greenfield library</td>
             <td align="center">
                 <a href="https://crates.io/greenfield" target="_blank">
-                <img src="https://img.shields.io/crates/v/greenfiel"></a>
+                <img src="https://img.shields.io/crates/v/greenfield"></a>
             </td>
             <td>
                 <a href="https://docs.rs/greenfield" target="_blank">
                 <img src="https://img.shields.io/docsrs/greenfield"></a>
             </td>
         </tr>
-        
-        <tr>
-            <td align="center"><a target=_blank href="https://github.com/Tomcat-42/greenriver">greenriver</td>
+         <tr>
+            <td align="center"><a target="_blank" href="https://github.com/Tomcat-42/greenriver">greenriver</td>
             <td align="center">A Rust CLI greenfield application</td>
             <td align="center">
                 <a href="https://crates.io/greenriver" target="_blank">
                 <img src="https://img.shields.io/crates/v/greenriver"></a>
             </td>
             <td>
-                <a href="https://docs.rs/greenriver" target="_blank">
+                <a href="https://docs.rs/greenfield" target="_blank">
                 <img src="https://img.shields.io/docsrs/greenriver"></a>
             </td>
         </tr>
