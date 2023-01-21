@@ -6,14 +6,43 @@
 
 <p align="center"><strong>A very simple Uniform Quantizated RGB Image Format</strong></p>
 
-<div align="center">
-    <a href="https://crates.io/greenfield" target="_blank">
-    <img src="https://img.shields.io/crates/v/greenfiel"></a>
-    <a href="https://docs.rs/greenfield" target="_blank">
-    <img src="https://img.shields.io/docsrs/greenfield"></a>
-    <a href="https://github.com/Tomcat-42/greenfield" target="_blank">
-    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Tomcat-42/greenfield?style=social">
-</div>
+<table align="center">
+    <thead>
+        <tr>
+            <th align="center">Project</th>
+            <th align="center">Description</th>
+            <th align="center">Crate</th>
+            <th align="center">Docs</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><a target=_blank href="https://github.com/Tomcat-42/greenfield">greenfield</td>
+            <td align="center">A Rust greenfield library</td>
+            <td align="center">
+                <a href="https://crates.io/greenfield" target="_blank">
+                <img src="https://img.shields.io/crates/v/greenfiel"></a>
+            </td>
+            <td>
+                <a href="https://docs.rs/greenfield" target="_blank">
+                <img src="https://img.shields.io/docsrs/greenfield"></a>
+            </td>
+        </tr>
+        
+        <tr>
+            <td align="center"><a target=_blank href="https://github.com/Tomcat-42/greenriver">greenriver</td>
+            <td align="center">A Rust CLI greenfield application</td>
+            <td align="center">
+                <a href="https://crates.io/greenriver" target="_blank">
+                <img src="https://img.shields.io/crates/v/greenriver"></a>
+            </td>
+            <td>
+                <a href="https://docs.rs/greenriver" target="_blank">
+                <img src="https://img.shields.io/docsrs/greenriver"></a>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ## The greenfield image format
 
@@ -74,11 +103,3 @@ needed to store each component to 5 bits, reducing the number of bits needed to
 store each pixel from 24 to 15. Reducing each component to 5 bits, we now have
 2^5 = 32 possible values for each component. Each distinct value is the mean of
 the interval in the RGB color space.
-
-## Projects and Implementatins
-
-| Component | Description | Version |
-|-----------|-------------|---------|
-
-| [**greenfield**](https://github.com/Tomcat-42/greenfield) | Rust library implementation | [![](https://img.shields.io/crates/v/tauri.svg)](https://crates.io/crates/tauri) | 
-|[**greenriver**](https://github.com/Tomcat-42/greenriver) | Rust CLI application | [![](https://img.shields.io/crates/v/greenriver.svg)](https://crates.io/crates/greenriver) |
