@@ -1,2 +1,5 @@
 [workspace]
 members = ["greenfield", "greenriver"]
+
+[profile.release]
+lto = true
