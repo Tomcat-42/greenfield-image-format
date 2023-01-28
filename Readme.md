@@ -32,7 +32,7 @@
             <td align="center"><a target="_blank" href="https://github.com/Tomcat-42/greenriver">greenriver</td>
             <td align="center">A Rust CLI greenfield application</td>
             <td align="center">
-                <a href="https://crates.io/greenriver" target="_blank">
+                <a href="https://crates.iocrates/greenriver" target="_blank">
                 <img src="https://img.shields.io/crates/v/greenriver"></a>
             </td>
             <td>
